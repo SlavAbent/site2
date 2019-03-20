@@ -1,0 +1,417 @@
+html, body{
+	margin: 0;
+	font-family: Arial, sams-serif;
+	background-color: black;
+	min-width: 300px;
+}
+
+.clearfix{
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div{
+	box-sizing: border-box;
+}
+
+body.fade{
+    opacity: 0;
+}
+body.appear{
+    opacity: 1;
+    transition: opacity 3s;
+}
+
+header{
+	background: url(../img/hoverimg.jpg) no-repeat center top / cover;
+	width: 100%;
+	height: 960px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	flex-direction: row;
+	align-content: space-around;
+	
+
+}
+
+.heading{
+	margin-bottom: 50px;
+}
+
+.container{
+	width: 950px;
+	height: 100%;
+	margin-left: 200px;
+	margin: 0 auto;
+}
+
+
+nav {
+	float: right;
+	margin-top: 90px;
+	margin-right: 70px;
+	text-align: center;
+}
+
+.menu {
+	padding: 0;
+	margin: 0px;
+	margin-left: 90px;
+	display: block;
+	align-self: flex-start;
+	flex-basis: auto;
+
+}
+
+.menu li {
+	width: 95px;
+	float: left;
+	display: block;
+	margin-top: 2px;
+	margin-right: 30px;
+	margin-left: 30px;
+	align-self: flex-start;
+	flex-basis: auto;
+
+}
+
+.menu li a {
+	color: #0092f4;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	align-self: flex-start;
+	flex-basis: auto;
+}
+
+.menu li a:hover{
+	color: 	#00FFFF;
+	background: black;
+	align-self: flex-start;
+	flex-basis: auto;
+}
+
+.title__first {
+	font-size: 50px;
+	color: #fff;	
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 50px;
+	height: 600px;
+	display: block;
+	align-self: flex-start;
+	flex-basis: auto;
+}
+
+h1 {
+	font-size: 40px;
+	color: #fff;	
+	text-transform: uppercase;
+	margin-bottom: 100px;
+	text-align: center;
+	align-self: flex-start;
+}
+
+.button {
+	border-radius: 10px;
+	background: #0092f4;
+	display: block;
+	color: black;
+	width: 250px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+	box-shadow: 0 0 20px black;
+	margin-top: -270px;
+	border: 2px solid black;
+	align-self: flex-start;
+	flex-wrap: wrap;
+}
+
+.button:hover {
+	color: #00FFFF;
+	background: black;
+	border: 2px solid #00FFFF;
+}
+
+.title {
+	margin-top: 250px;
+}
+
+.title h2 {
+	font-size: 40px;
+	font-weight:  bold;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	margin: 0;
+	display: block;
+	align-self: flex-start;
+	flex-basis: auto;	
+}
+
+.title p {
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 100px;
+	display: block;
+	align-self: flex-start;
+	flex-basis: auto;
+}
+
+.wanderers {
+	margin-top: 60px;
+	margin-bottom: 60px;
+	padding-right: 5px;
+	padding-left: 5px;
+	
+}
+
+.wanderers__item {
+	width: 300px;
+	float: left;
+	text-align: center;
+	
+}
+
+.wanderers__item h3 {
+	color: white;
+	font-size: 20px;
+	margin-bottom: 20px;
+	text-transform: bold;
+	display: block;
+	align-self: flex-start;
+	flex-basis: auto;
+}
+
+
+.wanderers__item p {
+	color: white;
+	font-size: 18px;
+	line-height: 1.5;
+	display: block;
+	align-self: flex-start;
+	flex-basis: auto;
+}
+
+.wanderers__item:last-child {
+	display: block;
+	align-self: flex-start;
+	flex-basis: auto;
+	margin: 10px;
+}
+
+.wanderers__item:nth-child(2) {
+	margin-left: 5px;
+}
+
+.submitbtn{
+	width: 100px;
+	height: 30px;
+	margin-top: -5px;
+	margin-left: 70px;
+	border: 1px solid #0092f4;
+	background: #0092f4;
+	border-radius: 6px;
+	display: block;
+	cursor: pointer;
+	position: fixed;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	color: black;
+}
+
+.submitbtn:hover{
+	border: 1px solid #00FFFF;
+	color: #00FFFF;	
+	background: black;
+}
+
+#ABOUT_US{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	flex-direction: row;
+	align-content: space-around;
+}
+
+#ABOUT_US h2 {
+
+	margin-top: 70px;
+	text-align: center;
+	text-transform: uppercase;
+	display: block;
+	align-self: flex-start;
+	flex-basis: auto;
+}
+
+#ABOUT_US p {
+	padding-top: 30px;
+	padding-bottom: 70px;
+	text-align: center;
+	display: block;
+	align-self: flex-start;
+	flex-basis: auto;	
+}
+
+
+#GALLERY{
+	background: #f7f7f7;
+	text-transform: uppercase;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	flex-direction: row;
+	align-content: space-around;
+}
+
+#GALLERY h2 {	
+	padding-top: 200px;
+	margin-top: 100px;
+	text-align: center;
+	text-transform: uppercase;
+	display: block;
+	align-self: flex-start;
+	flex-basis: auto;
+}
+
+#GALLERY p {
+	padding-top: 30px;
+	text-align: center;
+	display: block;
+	align-self: flex-start;
+	flex-basis: auto;
+}
+
+.works{
+
+	width: 100%;
+	height: 645px;
+	padding-bottom: 100px;
+}
+
+.works img {
+	padding-top: 30px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	flex-direction: column;
+	justify-content: center;
+	display: block;
+	align-self: flex-start;
+	flex-basis: center;
+}
+
+.works img:first-child{
+	margin-left: 12px;
+	display: block;
+	align-self: flex-start;
+	flex-basis: auto;
+}
+
+.works img:last-child{
+	margin-left: 12px;
+	display: block;
+	align-self: flex-start;
+	flex-basis: auto;
+}
+
+.works img:nth-child(2){
+	margin-left: 12px;
+}
+
+#VIDEO{
+	width: 100%;
+	height: 750px;
+	margin-top: 100px;
+	padding-bottom: 70px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	align-items: center;
+	flex-shrink: 10px;
+	flex-basis: center;
+	display: block;
+	order: 1;
+	flex-grow: 1;
+
+	
+}
+
+#VIDEO h2 {
+	padding-top: 50px;
+	margin-top: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	display: block;
+	align-self: flex-start;
+	flex-basis: auto;
+}
+
+.video{
+	padding-top: 30px;
+	margin-top: 10px;
+	display: block;
+	align-self: flex-start;
+	flex-basis: auto;
+}
+
+footer {
+	background: black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	flex-direction: row;
+	align-content: space-around;
+}
+
+
+#CONTACTS {
+	text-align: center;
+	
+	padding-top: 10px;
+	width: 100%;
+	height: 200px;
+	display: block;
+	align-self: flex-start;
+	flex-basis: auto;
+
+}
+
+#CONTACTS h2 {
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 30px;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	align-self: flex-start;
+	flex-basis: auto;
+}
+
+#CONTACTS p {
+	display: block;
+	align-self: flex-start;
+	flex-basis: auto;
+	font-size: 15px;
+	color: white;
+	text-transform: none;
+	line-height: 1.5;
+	padding-left: 30px;
+}
+

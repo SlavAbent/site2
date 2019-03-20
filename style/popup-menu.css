@@ -1,0 +1,58 @@
+.popup_menu{
+	width: 240px;
+	height: 210px;
+	background: #111111;
+	left: 10px;
+	bottom: 50px;
+	position: fixed;
+	margin-left: 10px;
+	box-shadow: 0 0 50px #0092f4;
+	color: white;
+	border-radius: 7px;
+	border: 1px solid #0092f4;
+	align-content: flex-start;
+	flex-basis: auto;
+
+}
+.popup_menu h2{
+	text-align: center;
+	padding-top: 5px;
+}
+
+.popup_menu form{
+	text-align: center;
+	padding-top: 5px;
+}
+
+
+
+/*.button_up{
+	width: 70px;
+	text-align: center;
+	position: fixed;
+	padding: 20px;
+	margin-bottom: 20px;	
+	font-size: 20px;
+	border-radius: 7px;
+	border: 1px solid #0092f4;
+	cursor: pointer;
+	display: block;
+	align-content: flex-end;
+	flex-basis: auto;
+	bottom: 0;
+	margin-right: 0;
+	right: 20px;
+}
+
+.button_up:hover{
+	box-shadow: 0 0 20px #00FFFF;
+	color: #00FFFF;
+
+}
+
+.button_up a{
+	color: #0092f4;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}*/

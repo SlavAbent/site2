@@ -1,0 +1,31 @@
+.button_up{
+	width: 70px;
+	text-align: center;
+	position: fixed;
+	padding: 20px;
+	margin-bottom: 20px;	
+	font-size: 20px;
+	border-radius: 7px;
+	border: 1px solid #0092f4;
+	cursor: pointer;
+	display: block;
+	align-content: flex-end;
+	flex-basis: auto;
+	bottom: 0;
+	margin-right: 0;
+	right: 20px;
+}
+
+.button_up:hover{
+	box-shadow: 0 0 20px #00FFFF;
+	color: #00FFFF;
+
+}
+
+.button_up a{
+	color: #0092f4;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+

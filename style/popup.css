@@ -1,0 +1,46 @@
+.modal{
+	position: fixed;
+	width: 400px;
+	height: 300px;
+	margin-top: 300px;
+	margin-left: 620px;
+	z-index: 1001;
+	background: black;
+	padding: 10px;
+	padding-top: 20px;
+	display: none;
+	box-sizing: border-box;
+	box-shadow: 0 0 100px #0092f4;
+	border-radius: 10px;
+	border: 1px solid #0092f4;
+	left: 1%;
+	right: 1%;
+	
+	
+}
+
+.overlay{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	display: none;
+	cursor: pointer;
+	background: black;
+	opacity: 0.8;
+}
+
+.open{
+	display: block;
+}
+
+.modal h2{
+	margin-top: 50px;
+	padding-top: 10px;
+	font-size: 20px;
+	color: #0092f4;
+	text-align: center;
+}
+
